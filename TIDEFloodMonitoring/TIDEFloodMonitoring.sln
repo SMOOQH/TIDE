@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIDEFloodMonitoring", "TIDEFloodMonitoring\TIDEFloodMonitoring.csproj", "{1057ECD1-65D3-4C99-B398-BB7E2D467F3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIDEFloodMonitoring.Service", "TIDEFloodMonitoring.Service\TIDEFloodMonitoring.Service.csproj", "{28F4B323-9C35-4A5E-9354-91B7840E4370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIDEFloodMonitoring.Models", "TIDEFloodMonitoring.Models\TIDEFloodMonitoring.Models.csproj", "{8C92C718-DE28-4DFC-84A3-71CBBBEEA2A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIDEFloodMonitoring.Test", "TIDEFloodMonitoring.Test\TIDEFloodMonitoring.Test.csproj", "{0C83D4EF-20C1-4D6F-8FCE-BE9AE4303AC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{1057ECD1-65D3-4C99-B398-BB7E2D467F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1057ECD1-65D3-4C99-B398-BB7E2D467F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1057ECD1-65D3-4C99-B398-BB7E2D467F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F4B323-9C35-4A5E-9354-91B7840E4370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F4B323-9C35-4A5E-9354-91B7840E4370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F4B323-9C35-4A5E-9354-91B7840E4370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F4B323-9C35-4A5E-9354-91B7840E4370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C92C718-DE28-4DFC-84A3-71CBBBEEA2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C92C718-DE28-4DFC-84A3-71CBBBEEA2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C92C718-DE28-4DFC-84A3-71CBBBEEA2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C92C718-DE28-4DFC-84A3-71CBBBEEA2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C83D4EF-20C1-4D6F-8FCE-BE9AE4303AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C83D4EF-20C1-4D6F-8FCE-BE9AE4303AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C83D4EF-20C1-4D6F-8FCE-BE9AE4303AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C83D4EF-20C1-4D6F-8FCE-BE9AE4303AC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

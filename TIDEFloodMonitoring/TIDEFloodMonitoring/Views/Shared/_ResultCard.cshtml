@@ -1,0 +1,33 @@
+﻿
+@model FloodWarningViewModel
+
+@if (Model.FloodResponse.Items.Any())
+{
+
+    @foreach (var item in Model.FloodResponse.Items)
+    {
+        <div class="card card-background-color text-white border-gradient border-gradient-@item.SeverityLevel">
+            <div class="card-header">
+                @item.EaAreaName - Flood Severity: <b>@item.Severity</b> (@item.SeverityLevel)
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">@item.Description</h5>
+                <p class="card-text">@item.Message</p>
+                <br />
+
+                <div id="sub-info" class="card-sub-info-color">
+                    <p class="card-text small">River/Sea Involved: @item.FloodArea.RiverOrSea</p>
+                    <p class="card-text small">Time Raised: @item.TimeRaised</p>
+                    <p class="card-text small">Time Severity Changed: @item.TimeSeverityChanged</p>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+    }
+}
+else
+{
+    <p class="text-center text-white">Nothing Found - You sure that's a <i>real</i> place? 😉</p>
+}

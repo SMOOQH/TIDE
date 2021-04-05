@@ -18,6 +18,10 @@ namespace TIDEFloodMonitoring
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                 .ConfigureLogging((hostingContext, builder) =>
+                 {
+                     builder.AddFile("Logs/flood-monitoring-{Date}.txt", isJson: true);
+                 })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
